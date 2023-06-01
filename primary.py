@@ -5,7 +5,7 @@ from tkinter import Button
 import matplotlib
 matplotlib.use('Qt5Agg')
 from pathlib import Path
-import backend_old
+import backend
 from readme import open_readme_dialog
 from smooth_selector import smooth_select, smooth_apply
 import tsmoothie as tsmt
